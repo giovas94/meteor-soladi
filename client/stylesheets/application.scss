@@ -7,3 +7,13 @@
 @import "module/signup";
 
 @import "state/navbar";
+
+@media print {
+  .noprint {
+    display: none;
+  }
+}
+
+.text-center {
+  text-align: center;
+}

@@ -1,4 +1,29 @@
 {
-  "public": {},
-  "private": {}
+  "galaxy.meteor.com": {
+    "env": {
+        "MAIL_URL": "smtp://postmaster%40sandbox722815bc0c534e2d96279f93adf3f29b.mailgun.org:dedaba6cbd74566d6a57bb5c8de86a69@smtp.mailgun.org:587"
+    }
+  },
+  "private": {
+    "firebase": {
+      "type": "service_account",
+      "project_id": "pvert-app",
+      "private_key_id": "4b57cb5d6d80708b85ea0496858b62d127d4bc24",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDeQK+2uiwn9Ikb\njIJ0zy+d6a+7GDlF/FkZp/9AGVWqjOV0NnJ7Ff6iOCWCDijBqPOI1ZeZHfSAuUur\nVkU3SKPboLBCV75VJkeP1LFfE/1h1uoxXpwlQVvGQgPYUxFuPDa7yhglNCvPvlCo\nC0iiJcmm1X/r0HOYu7SUKmueHTyperdOHoZyW2jEEz3Tftta0hEixtHM9f0rKCP1\nf9C1KHYkUFsqHQIct0NtaUrGT+KLiFh/GDULVFL0Hwj0VKVldbeW68+EbWNaClMz\n8HPssUJB18MwG1pCobfIbyFnjEBCS8fNLD2g8psIOgS6oBD+Rq+aKfzBMwNhZPih\nK5NlFnlRAgMBAAECggEBAKqmvoSuhJMVR2V4yP6Jy0UUFtOwsOFU9tElVm9QRJ/U\n2aYW3GY4KDFErUAkQRUZ9gy9/E4cWw2vuTNQ5YqiYvaTdmMqXkGhR9dfd+XKQocq\nbt4DiB9vBNnA/JTQi5S59UjRzyJZ4b38oo+1QksGesR4MGXPw8Klde1CeSmJx3dV\nDJpPCbTwpvdAAqlhmgGO6WSBOueVzLO7L+AYuj5WUsFqJHXlkX1p5/l52WEVpeEk\nT1NVhWxb0xuHQJ/A3h4bngwH8mg5IEZ2BOWEtfzosZDa89Sq5p7hRUvQ8SjftmiH\nuMYOnc7wtIgmqGeOX3abSPdxz7px9/fIC+kLxsSRJ3ECgYEA/LN6bNtycWirsZ/t\nC1v/08z9HsSfHJdYqjj+9McLdwIaDUeqTbDGUbo/MDafZj/NRASFuGsoSHDI1bqQ\nhgsAGZ+ZplD0VViiyLPR1UHIXCh/iDvLH/Pckt4FcHv020Mab47L8jzdVAfgl65S\nYWY3iA43IqeiCuziLTr7o2ZNjWUCgYEA4SdzQZ8zV/dTk0FuZcVcNBGmZW5l4il0\ngXe4LqPHfkSAVfklyttd/o8Hra/+bchf7YGqLLl69BivFInuDZAkc+5jOgtckCWV\niKlEnAYtoaaxmJlT46F3IQNj9n7kDy1il/vrEp0IhBINY0TkHQSFxebTLWNzhd00\nBMYR5xxrQ30CgYEA8Gee9Kjg+1tk3BsVXFUt0MWXmQndhUnGpEqM4znpglKRjki7\nkCW4xk+1hZyxkIjqMudKf+QR8ri5l/thOuSEN9xKRJuHlxo341CPM57dii9NBMI9\nwCwzj9WAvz5t95qjL7Zd+BpHRYYo+KRy4w5njhxX/7QSyOoLUpRmiVDuPrECgYAx\njBLq//O2ifDUWPPIZZQSyUeKzq6RBHpk+0mGyffeq4hqYveUGo4mtKcF69Lbqdqi\nU4R1byPFj6EHrgq65VuAP5eKcHGgLwUnG8jDZQCpsBso76TsVN34X9yho+7gACbQ\nN1nVsMTs+2QC0mg4koQ1tsQGGvqTHMiTvFq4NyLLqQKBgB6I02MFyPvFl+kKP7jp\nTjGwoRJPRBkme4meI19pEjTGHlJ8Rsg/XjW0B80JjmmZkhs3Dse98gUam+a0aAtm\n9L2G43VLHrxfeYee+s08EextLuXiIoQk+jyGA/TJw+SwYBLoI1OMFv6xUewNSzqD\nrFJfLcXtUdlFZ0fE98lEDbQZ\n-----END PRIVATE KEY-----\n",
+      "client_email": "pvert-app@pvert-app.iam.gserviceaccount.com",
+      "client_id": "109331691038886664309",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://accounts.google.com/o/oauth2/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pvert-app%40pvert-app.iam.gserviceaccount.com"
+    }
+  },
+  "public": {
+    "firebase": {
+      "API_KEY": "AIzaSyDFFikIkRi48NNkdrv5o3DY7ACLj_HpeBY",
+      "AUTH_DOMAIN": "pvert-app.firebaseapp.com",
+      "DATABASE_URL": "https://pvert-app.firebaseio.com",
+      "STORAGE_BUCKET": "pvert-app.appspot.com"
+    }
+  }
 }

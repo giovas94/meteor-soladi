@@ -13,7 +13,7 @@ export class AppNavigation extends React.Component {
     return <Navbar>
       <Navbar.Header>
         <Navbar.Brand>
-          <Link to="/">Application Name</Link>
+          <Link to="/">Þvert App</Link>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
@@ -25,5 +25,5 @@ export class AppNavigation extends React.Component {
 }
 
 AppNavigation.propTypes = {
-  hasUser: React.PropTypes.object,
+  hasUser: React.PropTypes.object
 };
